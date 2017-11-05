@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  min-width: 1440px;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  line-height: 1; }
+
+.header {
+  width: 100%;
+  height: 640px;
+  margin: 0 auto;
+  background: url("../../images/Header.png") no-repeat center center;
+  background-size: cover; }
+  .header .wrapper {
+    margin: 0 auto;
+    min-width: 1170px; }
+    .header .wrapper .header-top {
+      width: 1170px;
+      margin: 0 auto;
+      padding: 42px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .header .wrapper .header-top a {
+        text-decoration: none; }
+      .header .wrapper .header-top .Logo {
+        display: flex;
+        align-items: center; }
+        .header .wrapper .header-top .Logo .logo {
+          font-size: 20px;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: white; }
+        .header .wrapper .header-top .Logo .logo-titl {
+          padding-left: 16px;
+          font-size: 7px;
+          text-transform: uppercase;
+          color: #515155; }
+      .header .wrapper .header-top .header-nav {
+        font-family: 'Source Sans Pro', sans-serif;
+        height: 100%;
+        display: flex;
+        align-items: center; }
+        .header .wrapper .header-top .header-nav a {
+          margin-right: 25px;
+          color: white;
+          display: inline-block;
+          position: relative;
+          text-decoration: none; }
+          .header .wrapper .header-top .header-nav a:last-child {
+            margin-right: 0; }
+  .header .header-title {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between; }
+    .header .header-title .header-bottom {
+      width: 475px;
+      font-family: 'Source Sans Pro', sans-serif; }
+      .header .header-title .header-bottom .title-top {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #008ed6;
+        font-size: 5px; }
+      .header .header-title .header-bottom .title {
+        margin-top: 32px;
+        font-weight: 600;
+        color: white; }
+      .header .header-title .header-bottom .title-text {
+        margin-top: 35px;
+        color: #808081;
+        font-size: 12px;
+        line-height: 1.5; }
+      .header .header-title .header-bottom .buttons {
+        margin-top: 62px;
+        display: flex; }
+        .header .header-title .header-bottom .buttons .item-buttun {
+          font-size: 10px;
+          font-weight: 600;
+          margin-right: 20px;
+          text-transform: uppercase;
+          padding: 20px;
+          color: white;
+          border: 1px solid #454449;
+          border-radius: 3px;
+          background: transparent; }
+          .header .header-title .header-bottom .buttons .item-buttun:last-child {
+            margin-right: 0; }
+          .header .header-title .header-bottom .buttons .item-buttun:hover {
+            border-color: transparent;
+            background-color: #008ed6; }
+
+/*# sourceMappingURL=style.css.map */

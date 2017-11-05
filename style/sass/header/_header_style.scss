@@ -1,0 +1,113 @@
+@import "_header_mixin.scss";
+@import "_header_variables.scss";
+
+.header {
+  width: 100%;
+  height: 640px;
+  margin: 0 auto;
+  background: url("../../images/Header.png") no-repeat center center;
+  background-size: cover;
+  .wrapper {
+    margin: 0 auto;
+    min-width: 1170px;
+    .header-top {
+      width: 1170px;
+      margin: 0 auto;
+      padding: 42px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      a {
+        text-decoration: none;
+      }
+      .Logo {
+        display: flex;
+        align-items: center;
+        .logo {
+          font-size: 20px;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: white;
+        }
+        .logo-titl {
+          padding-left: 16px;
+          font-size: 7px;
+          text-transform: uppercase;
+          color: #515155;
+        }
+      }
+      .header-nav {
+        font-family: 'Source Sans Pro', sans-serif;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        a {
+          margin-right: 25px;
+          color: white;
+          display: inline-block;
+          position: relative;
+          text-decoration: none;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+  .header-title {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    .header-bottom {
+      width: 475px;
+      font-family: 'Source Sans Pro', sans-serif;
+      .title-top {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #008ed6;
+        font-size: 5px;
+      }
+      .title {
+        margin-top: 32px;
+        font-weight: 600;
+        color: white;
+      }
+      .title-text {
+        margin-top: 35px;
+        color: #808081;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      .buttons {
+        margin-top: 62px;
+        display: flex;
+        .item-buttun {
+          font-size: 10px;
+          font-weight: 600;
+          margin-right: 20px;
+          text-transform: uppercase;
+          padding: 20px;
+          color: white;
+          border: 1px solid #454449;
+          border-radius: 3px;
+          background: transparent;
+          &:last-child {
+            margin-right: 0;
+          }
+          &:hover {
+            border-color: transparent;
+            background-color: #008ed6;
+          }
+        }
+      }
+    }
+    .header-img {
+
+
+    }
+  }
+}
